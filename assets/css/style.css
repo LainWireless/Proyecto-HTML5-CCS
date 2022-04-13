@@ -1,0 +1,289 @@
+ @import url("https://use.typekit.net/imi1uak.css");
+
+
+
+/*-----------------------------------------Navbar*/
+header{
+    margin: 0;
+    font-family: 'adobe-garamond-pro', serif;
+    font-style: normal;
+    font-size: 140%;
+    letter-spacing: 10%;
+}
+
+.bateman{
+    font-size: 150%;
+}
+
+/*----------------------------------------- Buttons*/
+
+.btn-outline-danger {
+    color: #BF0000;
+    border-color: #BF0000;
+}
+
+.btn-outline-danger:hover {
+    background-color: #BF0000;
+    border-color: #BF0000;
+    color: #fff
+}
+
+.youtube-button {
+    background-color: #181819;
+    text-align: center;
+    color: #efefef;    
+    font-size: 25px;
+    border-radius: 10px 0px 0px 10px;
+    min-height: 30px;
+    min-width: 20%;
+    padding: 5px 10px 0px;
+    vertical-align: middle;
+}
+
+.youtube-button:hover {
+    background-color: #FF0000;
+    color: #ffffff;
+}
+
+.spotify-button {
+    background-color: #4A4A4B;
+    text-align: center;
+    color: #efefef;
+    font-size: 25px;
+    border-radius: 0px 10px 10px 0px;
+    min-height: 30px;
+    min-width: 20%;
+    padding: 5px 10px 0px;
+    vertical-align: middle;
+}
+
+.spotify-button:hover {
+    background-color: #1db954;
+    color: #ffffff;
+}
+
+
+
+
+/*-----------------------------------------Remove automatic margins on contanier-fluid*/
+.container-fluid{
+    padding: 0px;
+}
+
+#wrapper{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/*-----------------------------------------Form*/
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+/*-----------------------------------------Images*/
+
+.patrickimage{
+    max-width: 100%;
+    /* height: 75%; */
+    
+}
+
+.homepage-banner-text{
+    padding: 25px 25px 75px;
+    text-align: left;
+}
+
+@media screen and (min-width: 1160px) {
+  #wrapper {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+
+
+.media {
+}
+
+/*-----------------------------------------font*/
+
+.bannerhp{
+    font-size: 90%
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/*-----------------------------------------General*/
+body{
+    font-family: 'adobe-garamond-pro', serif;
+    font-style: normal;
+    letter-spacing: 10%;
+    background-color: #F8F9FA;
+    background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
+    https://www.transparenttextures.com/
+    }
+
+
+/*-----------------------------------------Page Cards and card images*/
+.restaurant-container {
+    height: 80vh;
+    background: url("../images/restaurant.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff
+}
+
+.music-container {
+    height: 80vh;
+    background: url("../images/vinyl.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff
+}
+
+.wellness-container {
+    height: 80vh;
+    background: url("../images/wellness-water.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-review {
+    background: url("../images/restaurant.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.restaurant-panel {
+    margin: 100px 0px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.restaurant-review-left {
+    background: url("../images/restaurant.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.restaurant-panel-left {
+    margin: 100px 0px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.music-review {
+    background: url("../images/hueylewisandthenews.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.music-panel {
+    margin: 0px 0px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.music-review-left {
+    background: url("../images/hueylewisandthenews.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+.whitney-review-left {
+    background: url("../images/whitneyhouston.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+.genesis-review-left {
+    background: url("../images/genesis.jpg") center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.music-panel-left {
+    margin: 50px 0px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.wellness-image {
+    background: url("../images/wellness-card.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.wellness-panel{
+    margin: 100px 0px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #888888;
+
+.img-responsive {
+    width: 100%;
+}
+
+.col-responsive{
+    padding: 0%;
+}
