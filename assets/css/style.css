@@ -260,3 +260,9 @@ body{
 .col-responsive{
     padding: 0%;
 }
+
+.table{
+    border-collapse: collapse;
+    caption-side: bottom;
+    width: 50%;
+}
