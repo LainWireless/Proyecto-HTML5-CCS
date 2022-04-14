@@ -18,51 +18,15 @@ header{
 /*----------------------------------------- Buttons*/
 
 .btn-outline-danger {
-    color: #BF0000;
-    border-color: #BF0000;
+    color: #000000;
+    border-color: #4e2e11b0;
 }
 
 .btn-outline-danger:hover {
-    background-color: #BF0000;
-    border-color: #BF0000;
+    background-color: #4e2e11b0;
+    border-color: #4e2e11b0;
     color: #fff
 }
-
-.youtube-button {
-    background-color: #181819;
-    text-align: center;
-    color: #efefef;    
-    font-size: 25px;
-    border-radius: 10px 0px 0px 10px;
-    min-height: 30px;
-    min-width: 20%;
-    padding: 5px 10px 0px;
-    vertical-align: middle;
-}
-
-.youtube-button:hover {
-    background-color: #FF0000;
-    color: #ffffff;
-}
-
-.spotify-button {
-    background-color: #4A4A4B;
-    text-align: center;
-    color: #efefef;
-    font-size: 25px;
-    border-radius: 0px 10px 10px 0px;
-    min-height: 30px;
-    min-width: 20%;
-    padding: 5px 10px 0px;
-    vertical-align: middle;
-}
-
-.spotify-button:hover {
-    background-color: #1db954;
-    color: #ffffff;
-}
-
-
 
 
 /*-----------------------------------------Remove automatic margins on contanier-fluid*/
@@ -159,7 +123,7 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-    color: #fff
+    color: rgb(0, 0, 0)
 }
 
 .rutina-container {
