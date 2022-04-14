@@ -134,9 +134,9 @@ body{
 
 
 /*-----------------------------------------Page Cards and card images*/
-.restaurant-container {
+.aficiones-container {
     height: 80vh;
-    background: url("../images/restaurant.jpg") no-repeat bottom right fixed;
+    background: url("../images/aficiones.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -148,9 +148,9 @@ body{
     color: #fff
 }
 
-.music-container {
+.bio-container {
     height: 80vh;
-    background: url("../images/vinyl.jpg") no-repeat bottom right fixed;
+    background: url("../images/bio.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -162,9 +162,9 @@ body{
     color: #fff
 }
 
-.wellness-container {
+.rutina-container {
     height: 80vh;
-    background: url("../images/wellness-water.jpg") no-repeat bottom right fixed;
+    background: url("../images/rutina.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -184,8 +184,8 @@ body{
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.restaurant-review {
-    background: url("../images/restaurant.jpg") no-repeat center center;
+.aficiones-review {
+    background: url("../images/aficiones.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -193,15 +193,15 @@ body{
     border-radius: 0px 20px 20px 0px;
 }
 
-.restaurant-panel {
+.aficiones-panel {
     margin: 100px 0px;
     background: #f5f5f5;
     border-radius: 20px;
     box-shadow: 5px 10px 8px #888888;
 }
 
-.restaurant-review-left {
-    background: url("../images/restaurant.jpg") no-repeat;
+.aficiones-review-left {
+    background: url("../images/aficiones2.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -210,15 +210,15 @@ body{
 
 }
 
-.restaurant-panel-left {
+.aficiones-panel-left {
     margin: 100px 0px;
     background: #f5f5f5;
     border-radius: 20px;
     box-shadow: 5px 10px 8px #888888;
 }
 
-.music-review {
-    background: url("../images/hueylewisandthenews.png") no-repeat;
+.bio-review {
+    background: url("../images/bio1.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -226,31 +226,31 @@ body{
     border-radius: 0px 20px 20px 0px;
 }
 
-.music-panel {
+.bio-panel {
     margin: 0px 0px;
     background: #f5f5f5;
     border-radius: 20px;
     box-shadow: 5px 10px 8px #888888;
 }
 
-.music-review-left {
-    background: url("../images/hueylewisandthenews.png") no-repeat;
+.bio-review-left {
+    background: url("../images/bio1.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     border-radius: 20px 0px 0px 20px;
 }
-.whitney-review-left {
-    background: url("../images/whitneyhouston.jpg") no-repeat;
+.bio2-review-left {
+    background: url("../images/bio2.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     border-radius: 20px 0px 0px 20px;
 }
-.genesis-review-left {
-    background: url("../images/genesis.jpg") center center no-repeat;
+.bio3-review-left {
+    background: url("../images/bio3.jpg") center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -258,15 +258,15 @@ body{
     border-radius: 0px 20px 20px 0px;
 }
 
-.music-panel-left {
+.bio-panel-left {
     margin: 50px 0px;
     background: #f5f5f5;
     border-radius: 20px;
     box-shadow: 5px 10px 8px #888888;
 }
 
-.wellness-image {
-    background: url("../images/wellness-card.png") no-repeat;
+.rutina-image {
+    background: url("../images/rutina.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -274,7 +274,16 @@ body{
     border-radius: 20px 0px 0px 20px;
 }
 
-.wellness-panel{
+.rutina-image2 {
+    background: url("../images/rutina2.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.rutina-panel{
     margin: 100px 0px;
     background: #f5f5f5;
     border-radius: 20px;
