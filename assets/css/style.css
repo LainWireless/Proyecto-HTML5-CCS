@@ -34,7 +34,17 @@ header{
     padding: 0px;
 }
 
-#wrapper{
+#wrapper1{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#wrapper2{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#wrapper3{
     padding-left: 40px;
     padding-right: 40px;
 }
