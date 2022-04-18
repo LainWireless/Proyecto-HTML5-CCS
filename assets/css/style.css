@@ -76,6 +76,19 @@ header{
   }
 }
 
+@media screen and (min-width: 1160px) {
+#wrapper2 {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media screen and (min-width: 1160px) {
+#wrapper3 {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
 
 
 .media {
